@@ -26,12 +26,12 @@
         }
 
         #menu #hello{
-            color: green;
+            color: rgb(45,150,35);
             font-size: 30px;
         }
 
         #menu #world{
-            color: blue;
+            color: rgb(59, 138, 241);
             font-size: 30px;
         }
 
