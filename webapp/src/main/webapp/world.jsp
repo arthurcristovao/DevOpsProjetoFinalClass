@@ -10,11 +10,29 @@
             padding: 0;
             margin: 0;
             color: black;
-            background-image: linear-gradient(90deg, #a74947 0, #983f45 12.5%, #853541 25%, #702a3b 37.5%, #591f32 50%, #431528 62.5%, #2f0c1e 75%, #210116 87.5%, #15000b 100%);
+            background-image: linear-gradient(90deg, #4ee7ff 0, #117fda 50%, #00254d 100%);
             display: flex;
             width: 100vw;
             height: 100vh;
             font-family: Arial, Helvetica, sans-serif;
+            flex-direction: column;
+        }
+
+        #menu {
+            display: flex;
+            width: 100vw;
+            height: 10vh;
+            background-color: rgba(0, 0, 0, 0.5);
+        }
+
+        #menu #hello{
+            color: rgb(255, 186, 58);
+            font-size: 30px;
+        }
+
+        #menu #world{
+            color: rgb(45, 150, 35);
+            font-size: 30px;
         }
 
         #num1{
@@ -49,6 +67,7 @@
             align-items: center;
             color: black;
             margin: auto;
+            text-decoration: none;
         }
 
         #arthur, #raphael {
@@ -60,8 +79,13 @@
     </style>
 </head>
 <body>
+    <div id="menu">
+        <a id="world" href="/webapp/hello">Hello</a>
+        <a id="hello" href="/webapp">WebApp</a>
+    </div>
+
     <div id="num1">
-        <h1>Bem vindo ao nosso projeto final de SGC(DevOPS)!</h1>
+        <h1>Bem-vindo ao nosso projeto final de SGC (DevOps)! </h1>
         <h2>Arthur e Raphael!</h2>
 
         <div id="git">
