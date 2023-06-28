@@ -15,6 +15,24 @@
             width: 100vw;
             height: 100vh;
             font-family: Arial, Helvetica, sans-serif;
+            flex-direction: column;
+        }
+
+        #menu {
+            display: flex;
+            width: 100vw;
+            height: 10vh;
+            background-color: rgba(0, 0, 0, 0.5);
+        }
+
+        #menu #hello{
+            color: green;
+            font-size: 30px;
+        }
+
+        #menu #world{
+            color: blue;
+            font-size: 30px;
         }
 
         #num1{
@@ -49,6 +67,7 @@
             align-items: center;
             color: black;
             margin: auto;
+            text-decoration: none;
         }
 
         #arthur, #raphael {
@@ -60,7 +79,11 @@
     </style>
 </head>
 <body>
-    <a href="/webapp/hello" target="_blank">teste</a>
+    <div id="menu">
+        <a id="hello" href="/webapp/hello">Hello</a>
+        <a id="world" href="/webapp/world">World</a>
+    </div>
+
     <div id="num1">
         <h1>Bem vindo ao nosso projeto final de SGC(DevOPS)!</h1>
         <h2>Arthur e Raphael!</h2>
