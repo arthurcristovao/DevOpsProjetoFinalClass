@@ -60,7 +60,7 @@
     </style>
 </head>
 <body>
-    <a href="/hello" target="_blank">teste</a>
+    <a href="/webapp/hello" target="_blank">teste</a>
     <div id="num1">
         <h1>Bem vindo ao nosso projeto final de SGC(DevOPS)!</h1>
         <h2>Arthur e Raphael!</h2>
