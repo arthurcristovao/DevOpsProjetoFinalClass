@@ -10,11 +10,29 @@
             padding: 0;
             margin: 0;
             color: black;
-            background-image: linear-gradient(90deg, #a74947 0, #983f45 12.5%, #853541 25%, #702a3b 37.5%, #591f32 50%, #431528 62.5%, #2f0c1e 75%, #210116 87.5%, #15000b 100%);
+            background-image: radial-gradient(circle at -19.64% 37.72%, #b2b13d 0, #9dad3f 10%, #88a741 20%, #729e43 30%, #5b9344 40%, #448544 50%, #2e7743 60%, #166b42 70%, #006142 80%, #005842 90%, #005243 100%);
             display: flex;
             width: 100vw;
             height: 100vh;
             font-family: Arial, Helvetica, sans-serif;
+            flex-direction: column;
+        }
+
+        #menu {
+            display: flex;
+            width: 100vw;
+            height: 10vh;
+            background-color: rgba(0, 0, 0, 0.5);
+        }
+
+        #menu #hello{
+            color: rgb(255, 186, 58);
+            font-size: 30px;
+        }
+
+        #menu #world{
+            color: rgb(59, 138, 241);
+            font-size: 30px;
         }
 
         #num1{
@@ -49,6 +67,7 @@
             align-items: center;
             color: black;
             margin: auto;
+            text-decoration: none;
         }
 
         #arthur, #raphael {
@@ -60,8 +79,13 @@
     </style>
 </head>
 <body>
+    <div id="menu">
+        <a id="hello" href="/webapp">WebApp</a>
+        <a id="world" href="/webapp/world">World</a>
+    </div>
+
     <div id="num1">
-        <h1>Bem vindo ao nosso projeto final de SGC(DevOPS)!</h1>
+        <h1>Bem-vindo ao nosso projeto final de SGC (DevOps)! </h1>
         <h2>Arthur e Raphael!</h2>
 
         <div id="git">
