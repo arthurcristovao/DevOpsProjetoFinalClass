@@ -3,27 +3,17 @@
          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
          xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd"
          version="2.5">
-  <display-name>Webapp</display-name>
+  <display-name>MyWebApp</display-name>
 
-<servlet>
-    <servlet-name>HelloServlet</servlet-name>
-    <jsp-file>/hello.jsp</jsp-file>
-</servlet>
+    <servlet>
+        <servlet-name>HelloWorldServlet</servlet-name>
+        <servlet-class>com.example.mywebapp.HelloWorldServlet</servlet-class>
+    </servlet>
 
-<servlet-mapping>
-    <servlet-name>HelloServlet</servlet-name>
-    <url-pattern>/hello</url-pattern>
-</servlet-mapping>
-
-<servlet>
-    <servlet-name>WorldServlet</servlet-name>
-    <jsp-file>/world.jsp</jsp-file>
-</servlet>
-
-<servlet-mapping>
-    <servlet-name>WorldServlet</servlet-name>
-    <url-pattern>/world</url-pattern>
-</servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>HelloWorldServlet</servlet-name>
+        <url-pattern>/hello</url-pattern>
+    </servlet-mapping>
 
          
   <!--
